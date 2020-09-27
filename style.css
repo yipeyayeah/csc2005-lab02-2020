@@ -23,6 +23,9 @@
     .container li a:hover{
       color: #57575790;
     }
+    iframe {
+      width:90%;
+    }
    }
   
   /* Small devices (landscape phones, 576px and up) */
@@ -60,6 +63,9 @@
     .container li a:hover{
       color: #b9b9b9;
     }
+    iframe {
+      width:90%;
+    }
   }
   
   /* Medium devices (tablets, 768px and up) */
@@ -90,6 +96,9 @@
     }
     .container li a:hover{
       color: #b9b9b9;
+    }
+    iframe {
+      width:80%;
     }
    }
   
@@ -122,6 +131,10 @@
     .container li a:hover{
       color: #b9b9b9;
     }
+
+    iframe {
+      width:65%;
+    }
   }
   
   /* Extra large devices (large desktops, 1200px and up) */
@@ -147,6 +160,10 @@
     }
     .container li a:hover{
       color: #57575790;
+    }
+
+    iframe {
+      width:55%;
     }
   }
 
