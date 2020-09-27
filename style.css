@@ -1,124 +1,163 @@
-   /* Small devices (landscape phones, 576px and up) */
-  @media (min-width: 576px) { 
-    body {
-      margin: auto;
-      padding: auto;
+
+  /* Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+    #img{
+      border-radius: 50%;
+      width: 20em;
+      height: 20em;
+      margin: 0 auto;
+  
+    }
+    .jumbotron{
       font-family: 'Roboto Condensed';
-      font-size: 16px;
       background: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
       background-size: cover;
-      resize: both;
-      overflow: auto;
-  }
-  
-    .box{
-      background: rgba(0, 0, 0, 0.4);
-      padding: 20px;
-      text-align: center;
-      margin: auto;
-      margin-top: 3%;
-      color: white;
-      position: relative;
-      width: 45%;
     }
-    .box-img{
-      border-radius: 50%;
-      width: 125px;
-      height: 125px;
-    }
-    .box h1{
-      font-size: 20px;
-      letter-spacing: 2px;
-      font-weight: 50;
-    }
-    .box h5{
-      font-size: 10px;
-      letter-spacing: 1.5px;
-      font-weight: 50;
-    }
-    .box p{
-      text-align: justify;
-    }
-  
-    ul{
-      margin: 0;
-      padding: 0;
-    }
-    .box li{
-      display: inline-block;
-      margin: 3px;
-      list-style: none;
-    }
-    .box li a{
-      color: white;
+    
+    .container li a{
+      color: black;
       text-decoration: none;
-      font-size: 30px;
+      font-size: 60px;
       transition: all ease-in-out 250ms;
     }
-    .box li a:hover{
+    .container li a:hover{
+      color: #57575790;
+    }
+   }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {  
+    #img{
+      visibility: hidden;
+    } 
+    #img{
+      border-radius: 50%;
+      width: 20em;
+      height: 20em;
+      margin: 0 auto;
+  
+    }
+    .jumbotron{
+      font-family: 'Roboto Condensed';
+      background: url(https://instagram.fsin9-1.fna.fbcdn.net/v/t51.2885-15/e35/118214078_390327395262508_3285736945301913664_n.jpg?_nc_ht=instagram.fsin9-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=rh4kOvCQJfkAX_X9s41&_nc_tp=18&oh=6eb3500e34af3fd4797604620d465451&oe=5F729E2B) no-repeat;
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+    
+    h1{
+      color: white;
+    }
+    h5{
+      color: white;
+    }
+    .container li a{
+      color: white;
+      text-decoration: none;
+      font-size: 60px;
+      transition: all ease-in-out 250ms;
+    }
+    .container li a:hover{
       color: #b9b9b9;
     }
+  }
   
-   }
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    #img{
+      visibility: hidden;
+    } 
 
+    .jumbotron{
+      font-family: 'Roboto Condensed';
+      background: url(https://instagram.fsin9-1.fna.fbcdn.net/v/t51.2885-15/e35/119496489_238645780920616_2935681694174877650_n.jpg?_nc_ht=instagram.fsin9-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=3tImvCQIJCgAX9P_mpq&_nc_tp=18&oh=ee767842073cdd41846a1e2864becc24&oe=5F99119C) no-repeat;
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+
+    }
+    h1{
+      color: white;
+    }
+    h5{
+      color: white;
+    }
+    .container li a{
+      color: white;
+      text-decoration: none;
+      font-size: 60px;
+      transition: all ease-in-out 250ms;
+    }
+    .container li a:hover{
+      color: #b9b9b9;
+    }
+   }
   
   /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) { body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Condensed';font-size: 22px;
-    background: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
-    background-size: cover;
-    resize: both;
-    overflow: auto;
-}
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+    #img{
+      visibility: hidden;
+  
+    } 
+    .jumbotron{
+      font-family: 'Roboto Condensed';
+      background: url(https://instagram.fsin9-2.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/120100297_1322527404763734_3091037036637125338_n.jpg?_nc_ht=instagram.fsin9-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=Ilg9XwpXtxwAX9XDmnw&_nc_tp=15&oh=327a9f5593d486c0837a59d69f80d2ab&oe=5F99301E) no-repeat;
+      height: 100%;
+      background-position: center;
+      background-size: cover;
 
-  .box{
-    /* width: 700px; */
-    background: rgba(0, 0, 0, 0.4);
-    padding: 40px;
-    text-align: center;
-    margin: auto;
-    margin-top: 3%;
-    color: white;
-    position: relative;
-    width: 45%;
+    }
+    h1{
+      color: white;
+    }
+    h5{
+      color: white;
+    }
+    .container li a{
+      color: white;
+      text-decoration: none;
+      font-size: 60px;
+      transition: all ease-in-out 250ms;
+    }
+    .container li a:hover{
+      color: #b9b9b9;
+    }
   }
-  .box-img{
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) { 
+    #img{
+      border-radius: 50%;
+      width: 20em;
+      height: 20em;
+      margin: 0 auto;
+  
+    }
+    .jumbotron{
+      font-family: 'Roboto Condensed';
+      background: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
+      background-size: cover;
+    }
+    
+    .container li a{
+      color: black;
+      text-decoration: none;
+      font-size: 60px;
+      transition: all ease-in-out 250ms;
+    }
+    .container li a:hover{
+      color: #57575790;
+    }
   }
-  .box h1{
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-weight: 100;
-  }
-  .box h5{
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 100;
-  }
-  .box p{
-    text-align: justify;
-  }
+
 
   ul{
     margin: 0;
     padding: 0;
   }
-  .box li{
+  .container li{
     display: inline-block;
     margin: 6px;
     list-style: none;
   }
-  .box li a{
-    color: white;
-    text-decoration: none;
-    font-size: 60px;
-    transition: all ease-in-out 250ms;
-  }
-  .box li a:hover{
-    color: #b9b9b9;
-  }
- }
+
